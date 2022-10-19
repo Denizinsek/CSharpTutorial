@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpTutorial.Functions
 {
@@ -10,9 +6,9 @@ namespace CSharpTutorial.Functions
     {
         static void Main(string[] args)
         {
-            WriteText("What ","Why ","How ","When","Where","Who","wich");
+            WriteText("What ", "Why ", "How ", "When", "Where", "Who", "wich");
 
-            WriteText("a", "b", "c", "d", "e","f","x");
+            WriteText("a", "b", "c", "d", "e", "f", "x");
 
             int total = Sum(12, 12, 3, 2);
             WriteText(total);
@@ -26,7 +22,7 @@ namespace CSharpTutorial.Functions
             string value = CombineText(12, 12);
             WriteText(value);
 
-            int result = Sum(24, 24,5,4);
+            int result = Sum(24, 24, 5, 4);
             WriteText(result);
 
             float result1 = Multiplication(8.1f, 10.2f, 2.3f);
@@ -59,7 +55,7 @@ namespace CSharpTutorial.Functions
             Console.ReadKey();
         }
 
-        static void WriteText(string value, string value2, string value3,string value4,string value5,string value6,string value7)
+        static void WriteText(string value, string value2, string value3, string value4, string value5, string value6, string value7)
         {
             WriteText(value);
             WriteText(value2);
@@ -95,8 +91,8 @@ namespace CSharpTutorial.Functions
 
         static float Multiplication(float number1, float number2, float number3)
         {
-            return number1 * number2 * number3 ;
-              
+            return number1 * number2 * number3;
+
         }
 
         static string CombineText(int number1, int number2)

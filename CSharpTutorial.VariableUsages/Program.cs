@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpTutorial.VariableUsages
 {
@@ -75,12 +71,12 @@ My niece name is {name}";
 
             string charString = character.ToString();
             charString = $"{character}";
-            charString = ""+character;
+            charString = "" + character;
             charString = character + string.Empty;
             charString = Convert.ToString(character);
 
             string stringTotal = totalNumber.ToString() + " " + character + " " + floatNumber1;
-            
+
             stringTotal += totalNumber;
 
             stringTotal = $"{totalNumber} {character} {floatNumber1}";

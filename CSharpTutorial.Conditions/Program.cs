@@ -101,6 +101,29 @@ namespace CSharpTutorial.Conditions
                 Console.WriteLine("Small");
             #endregion
 
+            #region [Example 7]
+            Console.WriteLine("Please choose from one of the following operations.. ");
+            Console.WriteLine("1. Write Hello");
+            Console.WriteLine("2. Write 1");
+            Console.WriteLine("3. Exit");
+            int operationNumber = Convert.ToInt32(Console.ReadLine());
+            switch (operationNumber)
+            {
+                case 1:
+                    Console.WriteLine("Hello");
+                    break;
+
+                case 2:
+                    Console.WriteLine("1");
+                    break;
+
+                case 3:
+                default:
+                    Environment.Exit(0);
+                    return;
+            }
+            #endregion
+
             Console.ReadKey();
         }
 

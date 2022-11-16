@@ -1,9 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Net;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CSharpTutorial.Loops
 {
@@ -144,7 +139,7 @@ namespace CSharpTutorial.Loops
             {
                 Console.Write(item);
 
-                if(numberIndex != newNumbers.Length - 1)
+                if (numberIndex != newNumbers.Length - 1)
                     Console.Write(",");
 
                 numberIndex++;
@@ -178,7 +173,7 @@ namespace CSharpTutorial.Loops
 
         static int GetFactorial(int value)
         {
-            if(value <= 0) return 1;
+            if (value <= 0) return 1;
 
             return GetFactorial(value - 1) * value;
         }

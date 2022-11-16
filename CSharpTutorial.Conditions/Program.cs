@@ -63,7 +63,7 @@ namespace CSharpTutorial.Conditions
 
             #region [Example 4]
             WriteText("Enter the temperature value of the substance.");
-            
+
             double temperature = Convert.ToDouble(Console.ReadLine());
             if (temperature >= 100)
             {
@@ -95,7 +95,7 @@ namespace CSharpTutorial.Conditions
             string textValue = lastValue < 10 ? "small" : "big";
             Console.WriteLine(textValue);
 
-            if(lastValue > 20)
+            if (lastValue > 20)
                 Console.WriteLine("Big");
             else
                 Console.WriteLine("Small");

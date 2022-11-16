@@ -6,6 +6,9 @@ namespace CSharpTutorial.Functions
     {
         static void Main(string[] args)
         {
+            string method = GetMethodName();
+            Console.WriteLine(method);
+
             WriteText("What ", "Why ", "How ", "When", "Where", "Who", "wich");
 
             WriteText("a", "b", "c", "d", "e", "f", "x");
@@ -122,5 +125,26 @@ namespace CSharpTutorial.Functions
             Console.WriteLine(value);
         }
 
+        static string GetMethodName()
+        {
+            Console.WriteLine("Please choose from one of the following operations.. ");
+            Console.WriteLine("1. Hello");
+            Console.WriteLine("2. One");
+            Console.WriteLine("3. Exit");
+            int operationNumber = Convert.ToInt32(Console.ReadLine());
+
+            switch (operationNumber)
+            {
+                case 1:
+                    return "Hello";
+
+                    case 2:
+                    return "One";
+
+                    case 3:
+                default:
+                    return "Exit";
+            }
+        }
     }
 }

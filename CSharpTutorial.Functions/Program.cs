@@ -138,10 +138,10 @@ namespace CSharpTutorial.Functions
                 case 1:
                     return "Hello";
 
-                    case 2:
+                case 2:
                     return "One";
 
-                    case 3:
+                case 3:
                 default:
                     return "Exit";
             }

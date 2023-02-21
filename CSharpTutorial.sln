@@ -17,6 +17,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTutorial.Loops", "CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTutorial.Generics", "CSharpTutorial.Generics\CSharpTutorial.Generics.csproj", "{808FF888-69F3-4549-9A49-B9A6068552C0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTutorial.Classes", "CSharpTutorial.Classes\CSharpTutorial.Classes.csproj", "{CBEE75E4-3227-46A2-92C7-215179B4D649}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTutorial.Classes.Core", "CSharpTutorial.Classes.Core\CSharpTutorial.Classes.Core.csproj", "{364D4FE9-4E6B-4AED-A322-DA34A621652A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +55,14 @@ Global
 		{808FF888-69F3-4549-9A49-B9A6068552C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{808FF888-69F3-4549-9A49-B9A6068552C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{808FF888-69F3-4549-9A49-B9A6068552C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBEE75E4-3227-46A2-92C7-215179B4D649}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBEE75E4-3227-46A2-92C7-215179B4D649}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBEE75E4-3227-46A2-92C7-215179B4D649}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBEE75E4-3227-46A2-92C7-215179B4D649}.Release|Any CPU.Build.0 = Release|Any CPU
+		{364D4FE9-4E6B-4AED-A322-DA34A621652A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{364D4FE9-4E6B-4AED-A322-DA34A621652A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{364D4FE9-4E6B-4AED-A322-DA34A621652A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{364D4FE9-4E6B-4AED-A322-DA34A621652A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

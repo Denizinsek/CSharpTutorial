@@ -42,9 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Domain\Cars\Car.cs" />
-    <Compile Include="Domain\Humans\Human.cs" />
-    <Compile Include="Domain\Students\Student.cs" />
+    <Compile Include="Domains\Cars\Car.cs" />
+    <Compile Include="Domains\Humans\Human.cs" />
+    <Compile Include="Domains\Students\Student.cs" />
     <Compile Include="Helpers\SpeedHelper.cs" />
     <Compile Include="Helpers\HumanHelper.cs" />
     <Compile Include="Helpers\MathHelper.cs" />

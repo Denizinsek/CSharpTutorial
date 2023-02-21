@@ -1,6 +1,6 @@
-﻿using CSharpTutorial.Classes.Core.Domain.Cars;
-using CSharpTutorial.Classes.Core.Domain.Humans;
-using CSharpTutorial.Classes.Core.Domain.Students;
+﻿using CSharpTutorial.Classes.Core.Domains.Cars;
+using CSharpTutorial.Classes.Core.Domains.Humans;
+using CSharpTutorial.Classes.Core.Domains.Students;
 using CSharpTutorial.Classes.Core.Helpers;
 using System;
 using System.Drawing;

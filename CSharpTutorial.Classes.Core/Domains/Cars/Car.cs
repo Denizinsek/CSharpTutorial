@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpTutorial.Classes.Core.Domain.Cars
+namespace CSharpTutorial.Classes.Core.Domains.Cars
 {
     public class Car
     {

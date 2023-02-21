@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpTutorial.Classes.Core.Domain.Humans
+namespace CSharpTutorial.Classes.Core.Domains.Humans
 {
     public class Human
     {

@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CSharpTutorial.Classes.Core.Domain.Students
+namespace CSharpTutorial.Classes.Core.Domains.Students
 {
     public class Student
     {
